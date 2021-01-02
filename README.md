@@ -25,7 +25,7 @@ If you want to insert pontuation **\points{}** in the questions:
 ## Author
 **Maurício Moreira Neto**
 <p align="center">
-    <a href="https://github.com/maumneto">GitHub</a>
-    <a href="https://maumneto.github.io/mauriciomoreira/">Personal Site</a>
+    <a href="https://github.com/maumneto">GitHub</a> • 
+    <a href="https://maumneto.github.io/mauriciomoreira/">Personal Site</a> • 
     <a href="https://linktr.ee/maumneto">LinkTree</a>
 </p>
