@@ -22,7 +22,7 @@ If you want to insert pontuation **\points{}** in the questions:
 
 ## Author
 <center><b>Maurício Moreira Neto</b></center>
-<p align="center">
+<p align="left">
     <a href="https://github.com/maumneto">GitHub</a> • 
     <a href="https://maumneto.github.io/mauriciomoreira/">Personal Site</a> • 
     <a href="https://linktr.ee/maumneto">LinkTree</a>
