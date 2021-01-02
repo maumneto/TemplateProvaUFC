@@ -20,7 +20,7 @@ If you want to insert pontuation **\points{}** in the questions:
 \end{question}
 ```
 
---
+---
 
 ## Author
 **Maurício Moreira Neto**
