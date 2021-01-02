@@ -13,7 +13,7 @@ If you want to insert the questions:
 \end{question}
 ```
 
-If you want to insert pontuation **\points{}** in the questions:
+If you want to insert punctuation **\points{}** in the questions:
 ```tex
 \begin{question}
     \item Question Description.\points{3.5}
