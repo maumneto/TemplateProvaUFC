@@ -20,12 +20,9 @@ If you want to insert pontuation **\points{}** in the questions:
 \end{question}
 ```
 
----
-
 ## Author
-
+<center><b>Maurício Moreira Neto</b></center>
 <p align="center">
-**Maurício Moreira Neto**
     <a href="https://github.com/maumneto">GitHub</a> • 
     <a href="https://maumneto.github.io/mauriciomoreira/">Personal Site</a> • 
     <a href="https://linktr.ee/maumneto">LinkTree</a>
