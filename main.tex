@@ -4,12 +4,15 @@
 %% author: Maurício Moreira Neto - Doctoral student in Computer Science         %%
 %% contacts:                                                                    %%
 %%    e-mail: maumneto@ufc.br                                                   %%
-%%    linktree:  https://linktr.ee/maumneto                                     %%
+%%    linktree: https://linktr.ee/maumneto                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass{ufcdocument}
+\documentclass[11pt, a4paper, answers]{exam}
 
-\usepackage[utf8]{inputenc}
+\usepackage{documentufc}
 \usepackage[portuguese]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[utf8]{inputenc}
 
 %% Informations that will be insert in the table header 
 \def\course{Nome da Disciplina}
@@ -46,11 +49,18 @@
     \vspace{1cm}
     
     \begin{question}
-        \item As questões podem ser elencadas usando os comandos \textit{begin} e \textit{end} com o argumento question. Desta forma, cada questão é referente a um \textit{item} da estrutura \textit{question}.\points{2}
+        \item \potuation{2}. As questões podem ser elencadas usando os comandos \textit{begin} e \textit{end} com o argumento question. Desta forma, cada questão é referente a um \textit{item} da estrutura \textit{question}.
 
-        \item Outra funcionalidade interessante: caso você queira colocar pontuação em cada questão, basta colocar o comando \textit{points} com o valor da pontuação da questão. \points{3.5}
+        \item \potuation{3.5}. Outra funcionalidade interessante: caso você queira colocar pontuação em cada questão, basta colocar o comando \textit{potuation} com o valor da pontuação da questão. 
         
-        \item A ideia é que este template seja sempre atualizado, visando atender a todas as necessidades dos usuários da UFC. Caso possua alguma dica que melhore o template, é possível entrar em contato através do e-mail disposto nos comentários.\points{4}
+        \item \potuation{4}. A ideia é que este template seja sempre atualizado, visando atender a todas as necessidades dos usuários da UFC. Caso possua alguma dica que melhore o template, é possível entrar em contato através do e-mail disposto nos comentários.
+        
+        \item \potuation{4}. Também é possível criar questões fechadas de multiplas escolhas usando o \LaTeX. Para isso basta utilizar o comando \textit{multiplechoices}. É necessário utilizar a quebra de linhas nessas questões. \\
+        \begin{multiplechoices}
+            \choice Item 1
+            \choice Item 2
+            \choice Item 3
+            \choice Item 3
+        \end{multiplechoices}
     \end{question}
-
 \end{document}

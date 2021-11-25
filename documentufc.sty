@@ -4,12 +4,13 @@
 %%   This class defines the pattern used in the exam of the UFC.                    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{ufcdocument}[2020/12/08 UFC Exam]
+\ProvidesClass{documentufc}[2020/12/08 UFC Exam]
 
 \newcommand{\headlineolor}{\normalcolor}
-\LoadClass[onecolumn, a4paper, twoside]{article} %% this template is based on the article tamplate. 
+% \LoadClass[onecolumn, a4paper, twoside]{article} %% this template is based on the article tamplate. 
 \RequirePackage{xcolor}
 \RequirePackage{graphicx}
+\RequirePackage{anyfontsize}
 \definecolor{slcolor}{HTML}{FFFFFF}
 
 \DeclareOption{onecolumn}{\OptionNotUsed}
@@ -31,7 +32,6 @@
 %%  course, student and others.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\makeheader}{
-
     \begin{table}
         \fontsize{0.38cm}{0.5cm}\selectfont 
         \begin{tabular}{|l|p{11.7cm}|p{4cm}|}
@@ -57,7 +57,7 @@
 \setlength{\textheight}{33cm}
 \setcounter{secnumdepth}{0}
 
-\newcommand{\points}[1]{
+\newcommand{\potuation}[1]{
     \fontsize{0.38cm}{0.1cm}\selectfont 
     \fontfamily{lmr}
     \textbf{(#1 pontos)}
@@ -94,4 +94,17 @@
     \begin{enumerate}[topsep=0pt,itemsep=5ex,partopsep=1ex,parsep=1ex]}{\end{enumerate}
 }
 
+\newcommand{\CorrectChoice}[1]{%
+    \ifprintanswers
+       \CorrectChoice \boldmath#1\unboldmath%
+    \else
+       \CorrectChoice #1%
+    \fi
+ }
 
+
+\newenvironment{multiplechoices}{
+    \fontfamily{lmr}
+    \begin{oneparcheckboxes}}
+        {\end{oneparcheckboxes}
+}
