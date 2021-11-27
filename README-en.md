@@ -17,6 +17,7 @@ If you want to insert the questions:
 \end{question}
 ```
 
+<<<<<<< HEAD
 If you want to insert multiple choices:
 ```tex
 \begin{multiplechoices}
@@ -27,6 +28,8 @@ If you want to insert multiple choices:
 \end{multiplechoices}
 ```
 
+=======
+>>>>>>> main
 If you want to insert punctuation **\pontuation{}** in the questions:
 ```tex
 \begin{question}

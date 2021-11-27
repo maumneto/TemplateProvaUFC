@@ -16,6 +16,7 @@ Se você precisa inserir questões:
 \end{question}
 ```
 
+<<<<<<< HEAD
 Se você precisa inserir questões de multipla escolhas:
 ```tex
 \begin{multiplechoices}
@@ -25,6 +26,8 @@ Se você precisa inserir questões de multipla escolhas:
     \choice item 4
 \end{multiplechoices}
 ```
+=======
+>>>>>>> main
 
 Use o comando **\pontuation{valor}** caso precise inserir a pontuação para determinada questão:
 ```tex
