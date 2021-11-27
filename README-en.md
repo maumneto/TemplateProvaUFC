@@ -17,6 +17,16 @@ If you want to insert the questions:
 \end{question}
 ```
 
+If you want to insert multiple choices:
+```tex
+\begin{multiplechoices}
+    \choice item 1
+    \choice item 2
+    \choice item 3
+    \choice item 4
+\end{multiplechoices}
+```
+
 If you want to insert punctuation **\pontuation{}** in the questions:
 ```tex
 \begin{question}
